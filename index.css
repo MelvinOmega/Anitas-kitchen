@@ -71,7 +71,6 @@ nav, ul, li {
     background-color: white;
     
 }
-
 #fast{
     display: flex;
     flex-grow: 3;
@@ -104,4 +103,8 @@ nav, ul, li {
 }
 .home2{
     background-image: url("./dinner.jpg");
+}
+#Drinks {
+    display: flex;
+    flex
 }
