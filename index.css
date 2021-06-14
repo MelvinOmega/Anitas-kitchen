@@ -1,7 +1,9 @@
 main {
     background-image: url(landing.jpg);
     text-align: center;
-    background-size: cover;
+    /* background-size: cover; */
+    color: white;
+    font-size: 25px;
 }
 #main {
     display: flex;
@@ -109,4 +111,42 @@ nav, ul, li {
     display: flex;
     flex-grow: 3;
 
+}
+#the footer {
+    background-color: #F15A29;
+}
+
+/* New css starts here*/
+.meals{
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    color: white;
+    
+    
+}
+.breakfast{
+    background-image: url(breakfast.jpg);
+    width: 25%;
+    padding: 30px;
+}
+.lunch{
+    background-image: url(/lunch.jpg);
+    width: 25%;
+    padding: 30px;
+
+}
+.dinner{
+    background-image: url(/dinner.jpg);
+    width: 25%;
+    padding: 30px;
+}
+.hhour{
+    width: 25%;
+}
+.happy1{
+    color: black;
+}
+.party1{
+    background-color: #F15A29;
 }
