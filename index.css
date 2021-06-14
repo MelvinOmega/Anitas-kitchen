@@ -1,6 +1,7 @@
 main {
     background-image: url(landing.jpg);
     text-align: center;
+    background-size: cover;
 }
 #main {
     display: flex;
@@ -107,4 +108,5 @@ nav, ul, li {
 #Drinks {
     display: flex;
     flex-grow: 3;
+
 }
