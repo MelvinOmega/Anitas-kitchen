@@ -4,13 +4,11 @@ main {
 }
 #main {
     display: flex;
-}
-body {
-    background-color: #F15A29;
-}table,th,tr,td{
+
+}table,td, div{
     padding: 15px;
-    border-collapse: collapse;
-    border: 2px solid black;
+    align-items: flex-start;
+    border: 2px;
 
 }
 .food-stuffs {
@@ -57,4 +55,54 @@ table {
 }
 footer {
     text-align: center;
+}
+nav, ul, li {
+    list-style: none;
+    display: inline;
+    padding-right: 3px;
+    justify-content: space-between;
+}
+#fastfood {
+    display: flex;
+}
+#fastfoodimages {
+    flex-direction: row;
+    border: 2px solid lightgrey;
+    background-color: white;
+    
+}
+
+}
+#fast{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+}
+.foods{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.happy{
+    border: 1px solid white;
+}
+.happy2{
+    background-color: grey;
+}
+.party{
+    background-color:  #F15A29;
+}
+.combined{
+    display: flex;
+    flex-direction: row;
+    
+}
+.home{
+    background-image: url("./breakfast.jpg");
+}
+.home1{
+    background-image: url("./lunch.jpg");
+}
+.home2{
+    background-image: url("./dinner.jpg");
 }
