@@ -155,7 +155,7 @@ nav, ul, li {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
-    background-image: url(/subscribe.jpg);
+    background-image: url(subscribe.jpg);
     color: white;
 }
 .button1{
@@ -210,6 +210,13 @@ input{
 }
 .feedback h2{
     color: #F25D2A;
+}
+button{
+    background-color: white;
+    color: #F25C2A;
+    border-radius: 8px;
+    padding: 15px;
+    border: 2px solid #F25C2A;
 }
 
 
