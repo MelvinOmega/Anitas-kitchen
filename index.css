@@ -184,4 +184,35 @@ input{
     font-size: 16px;
 }
 
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.customerimage{
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: #F25C2A;
+    font-size: 50px;
+}
+#customer {
+    width: 32%;
+    text-align: center;
+}
+#aboutmenu{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+.feedback h2{
+    color: #F25D2A;
+}
+
+
+
+
 
