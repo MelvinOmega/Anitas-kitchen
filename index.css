@@ -269,6 +269,28 @@ nav, ul, li {
     color: #F25C2A;
     font-weight: bold;
 }
+.subscribe{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: url(/subscribe.jpg);
+    color: white;
+}
+.button1{
+    height: 40px;
+    color: white;
+    background-color: #F25C2A;
+    border-radius: 8px;
+
+}
+input{
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
 .footer{
     background-color: #F25C2A;
     text-align: center;
@@ -279,4 +301,5 @@ nav, ul, li {
 #footertxt{
     font-size: 16px;
 }
+
 
