@@ -56,6 +56,7 @@ main {
     margin-left: 15%;
     margin-top: 30px;
 }
+
 .foodfast{
     display: flex;
 }
@@ -111,22 +112,22 @@ nav, ul, li {
     background-color: lightgray;
 }
 
-.switcher {
+.Ff {
     background-image: url(foodsBg.jpg);
     width: 80%;
     margin: 0 auto;
     padding: 5em 6em;
 }
-.switcher-container {
+.Fastfoods {
     background-color: #fff;
 }
-.switcher-list {
+.Fastfoodimages {
     text-align: center;
     display: flex;
     justify-content: space-between;
     background-color: #999;
 }
-.switcher-list-item1 {
+.Ff1 {
     background: #fff;
     padding-top: 1em;
     padding-left: 7em;
@@ -134,11 +135,11 @@ nav, ul, li {
     color: #F25C2A;
     font-weight: bold;
 }
-.switcher-list-item {
+.Fastfoodclass {
     border-right: .8px solid #111;
     padding-right: 6em;
 }
-.switcher-images {
+.Foodsimages {
    text-align: center;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -146,7 +147,7 @@ nav, ul, li {
    margin-left: 4em;
    margin-right: 4em;
 }
-.food-image1 p{
+.food1 p{
     color: #F25C2A;
     font-weight: bold;
 }
