@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 main {
     background-image: url(landing.jpg);
     text-align: center;
@@ -8,145 +11,208 @@ main {
 #main {
     display: flex;
 
-}table,td, div{
-    padding: 15px;
-    align-items: flex-start;
-    border: 2px;
-
 }
-.food-stuffs {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-style: italic;
-
-}
-#what-we-offer > table {
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-    border-collapse: collapse;
-    font-style: normal;
-}
-#Happy-Hour {
-    background-color: lightgray;
-    color: black;
-}
-table {
-    text-align: center;
-    flex: 1;
-    padding: 15px;
-    border-collapse: collapse;
-    border: 2px solid black;
-
-}
-#breafast, #lunch ,#dinner {
-    flex: 1;
-    text-align: center;
-    padding-top: 50px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-#breakfast {
-    background-image: url(./breakfast.jpg);
-}
-#lunch {
-    background-image: url(./lunch.jpg);
-}
-#dinner {
-    background-image: url(./dinner.jpg);
-}
-footer {
-    text-align: center;
-}
-nav, ul, li {
-    list-style: none;
-    display: inline;
-    padding-right: 3px;
-    justify-content: space-between;
-}
-#fastfood {
-    display: flex;
-}
-#fastfoodimages {
-    flex-direction: row;
-    border: 2px solid lightgrey;
-    background-color: white;
-    
-}
-#fast{
-    display: flex;
-    flex-grow: 3;
-    justify-content: center;
-    align-items: center;
-}
-.foods{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}.happy{
-    border: 1px solid white;
-}
-.happy2{
-    background-color: grey;
-}
-.party{
-    background-color:  #F15A29;
-}
-.combined{
-    display: flex;
-    flex-direction: row;
-    
-}
-.home{
-    background-image: url("./breakfast.jpg");
-}
-.home1{
-    background-image: url("./lunch.jpg");
-}
-.home2{
-    background-image: url("./dinner.jpg");
-}
-#Drinks {
-    display: flex;
-    flex-grow: 3;
-
-}
-#the footer {
-    background-color: #F15A29;
-}
-
-/* New css starts here*/
 .meals{
     display: flex;
     align-content: space-around;
     text-align: center;
     color: white;
+    margin-top: 2px ;
     
     
 }
 .breakfast{
     background-image: url(breakfast.jpg);
     width: 25%;
-    padding: 30px;
+    padding: 40px;
 }
 .lunch{
     background-image: url(/lunch.jpg);
     width: 25%;
-    padding: 30px;
+    padding: 40px;
 
 }
 .dinner{
     background-image: url(/dinner.jpg);
     width: 25%;
-    padding: 30px;
+    padding: 40px;
 }
 .hhour{
     width: 25%;
 }
 .happy1{
     color: black;
+    height: 40px;
 }
 .party1{
     background-color: #F15A29;
+    height: 60px;
+    padding-top: 10px;
 }
+/*Section 3 styling*/
+.items{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+
+.foodfast{
+    display: flex;
+}
+.foodtxt {
+    padding-left: 20px;
+}
+.drinks1 {
+    display: flex;
+}
+.drinkimg {
+    display: flex;
+}
+.drinkstxt {
+    text-align: right;
+    padding-right: 20px;
+}
+/* Burgers */
+nav, ul, li {
+    list-style: none;
+    display: flex;
+    padding-right: 3px;
+    justify-content: space-around;
+    color: black;
+}
+.burgers {
+    background-image: url(./foodsBg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Ff {
+    color: #F15A29;
+}
+.burgers1 {
+    width: 70%;
+    
+    margin-left: 15%;
+    margin-right: 15px;
+    background-color: white ;
+}
+#fastfoodlist {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.fastfood2{
+    justify-content: space-evenly;
+}
+#Ff1 {
+    background-color: lightgray;
+    background-size: cover;
+}
+#Ff1 {
+    background-color: lightgray;
+}
+
+.Ff {
+    background-image: url(foodsBg.jpg);
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 6em;
+}
+.Fastfoods {
+    background-color: #fff;
+}
+.Fastfoodimages {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
+}
+.Ff1 {
+    background: #fff;
+    padding-top: 1em;
+    padding-left: 7em;
+    padding-right: 7em;
+    color: #F25C2A;
+    font-weight: bold;
+}
+.Fastfoodclass {
+    border-right: .8px solid #111;
+    padding-right: 6em;
+}
+.Foodsimages {
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 1.5em;
+   margin-left: 4em;
+   margin-right: 4em;
+}
+.food1 p{
+    color: #F25C2A;
+    font-weight: bold;
+}
+.subscribe{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: url(/subscribe.jpg);
+    color: white;
+}
+.button1{
+    height: 40px;
+    color: white;
+    background-color: #F25C2A;
+    border-radius: 8px;
+
+}
+input{
+    height: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.footer{
+    background-color: #F25C2A;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#footertxt{
+    font-size: 16px;
+}
+
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.customerimage{
+    justify-content: space-around;
+    padding-bottom: 10px;
+    color: #F25C2A;
+    font-size: 50px;
+}
+#customer {
+    width: 32%;
+    text-align: center;
+}
+#aboutmenu{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
+.feedback h2{
+    color: #F25D2A;
+}
+
+
+
+
+
