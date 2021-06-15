@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 main {
     background-image: url(landing.jpg);
     text-align: center;
@@ -8,7 +11,9 @@ main {
 #main {
     display: flex;
 
-}table,td, div{
+}
+/*
+table,td, div{
     padding: 15px;
     align-items: flex-start;
     border: 2px;
@@ -112,41 +117,82 @@ nav, ul, li {
     flex-grow: 3;
 
 }
-#the footer {
+.footer {
     background-color: #F15A29;
+    padding-top: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-size: cover;
 }
-
+#logopic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-bottom: 3px;
+}
+*/
 /* New css starts here*/
 .meals{
     display: flex;
     align-content: space-around;
     text-align: center;
     color: white;
+    margin-top: 2px ;
     
     
 }
 .breakfast{
     background-image: url(breakfast.jpg);
     width: 25%;
-    padding: 30px;
+    padding: 40px;
 }
 .lunch{
     background-image: url(/lunch.jpg);
     width: 25%;
-    padding: 30px;
+    padding: 40px;
 
 }
 .dinner{
     background-image: url(/dinner.jpg);
     width: 25%;
-    padding: 30px;
+    padding: 40px;
 }
 .hhour{
     width: 25%;
 }
 .happy1{
     color: black;
+    height: 40px;
 }
 .party1{
     background-color: #F15A29;
+    height: 60px;
+    padding-top: 10px;
+}
+/*Section 3 styling*/
+.items{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+.foodfast{
+    display: flex;
+}
+.foodtxt {
+    padding-left: 20px;
+}
+.drinks1 {
+    display: flex;
+}
+.drinkimg {
+    display: flex;
+}
+.drinkstxt {
+    text-align: right;
+    padding-right: 20px;
 }
