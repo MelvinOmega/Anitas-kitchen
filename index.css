@@ -64,14 +64,9 @@ table {
 footer {
     text-align: center;
 }
-nav, ul, li {
-    list-style: none;
-    display: inline;
-    padding-right: 3px;
-    justify-content: space-between;
+
 }
-#fastfood {
-    display: flex;
+
 }
 #fastfoodimages {
     flex-direction: row;
@@ -196,3 +191,83 @@ nav, ul, li {
     text-align: right;
     padding-right: 20px;
 }
+/* Burgers */
+nav, ul, li {
+    list-style: none;
+    display: flex;
+    padding-right: 3px;
+    justify-content: space-around;
+    color: black;
+}
+.burgers {
+    background-image: url(./foodsBg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Ff {
+    color: #F15A29;
+}
+.burgers1 {
+    width: 70%;
+    
+    margin-left: 15%;
+    margin-right: 15px;
+    background-color: white ;
+}
+#fastfoodlist {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.fastfood2{
+    justify-content: space-evenly;
+}
+#Ff1 {
+    background-color: lightgray;
+    background-size: cover;
+}
+#Ff1 {
+    background-color: lightgray;
+}
+
+.switcher {
+    background-image: url(foodsBg.jpg);
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em 6em;
+}
+.switcher-container {
+    background-color: #fff;
+}
+.switcher-list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #999;
+}
+.switcher-list-item1 {
+    background: #fff;
+    padding-top: 1em;
+    padding-left: 7em;
+    padding-right: 7em;
+    color: #F25C2A;
+    font-weight: bold;
+}
+.switcher-list-item {
+    border-right: .8px solid #111;
+    padding-right: 6em;
+}
+.switcher-images {
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 1.5em;
+   margin-left: 4em;
+   margin-right: 4em;
+}
+.food-image1 p{
+    color: #F25C2A;
+    font-weight: bold;
+}
+
+
