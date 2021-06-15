@@ -269,5 +269,14 @@ nav, ul, li {
     color: #F25C2A;
     font-weight: bold;
 }
-
+.footer{
+    background-color: #F25C2A;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+#footertxt{
+    font-size: 16px;
+}
 
